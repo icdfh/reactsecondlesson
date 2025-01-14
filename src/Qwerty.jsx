@@ -14,6 +14,9 @@ function Qwerty(props) {
     <button onClick={() => setIsCompleted(!isCompleted)}>
         {isCompleted ? 'Отменить' : 'Завершить'}
     </button>
+    <button>
+        Change
+    </button>
    </div>
   );
 }
